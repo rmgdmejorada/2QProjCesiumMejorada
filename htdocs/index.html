@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Boto Bente Dos</title>
+    
+    <meta charset="UTF-8">
+    <meta name="author" content="Rachel Mejorada">
+    <meta name="keywords" content="Philippines, Elections, President, Vice President, Senate">
+    <meta name="revised" content="31-01-2022">
+    
+    <link rel="stylesheet" href="../css/css.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@100;300;400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;400;500;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="icon" type="image/png" href="../images/logo1.png">
+</head>
+<body>
+    <div class="welcome">
+        <div><h1>WELCOME TO </h1></div>
+        <div><h1><span class="boldtitle">BOTO BENTE DOS</span></h1></div>
+        <p>Vote wisely. Para sa bayan. Para sa <span style="color: #F9C33D">PIL</span><span style="color: #E05151">IPI</span><span style="color: #6385E5">NAS</span>.</p>
+    </div>
+    
+    <header>
+        <div><img src="../images/logo.png" class="logo"></div>
+        <div><h1><span id="boto">BOTO  </span><span id="bente">BENTE  </span><span id="dos">DOS</span></h1></div>
+    </header>
+    
+    <nav class="topnav" id="myTopnav">
+        <a href="index.html" class="active">HOME</a>
+        <a href="webpage1.html">PRESIDENTIAL</a>
+        <a href="webpage2.html">VICE PRESIDENTIAL</a>
+        <a href="webpage3.html">SENATORIAL</a>
+        <a href="webpage4.html">TIPS</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+    </nav>
+    
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            }
+            
+            else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+    <div class="content1">
+        <h1>The</h1> 
+        <p>Philippines</p> 
+        <h1>counts on your vote.</h1>
+        
+        <div id="countdown"></div> left until the 2022 elections
+        
+        <script>
+            var countDownDate = new Date("May 9, 2022 00:00:00").getTime();
+
+            var x = setInterval(function() {
+
+              var now = new Date().getTime();
+
+              var distance = countDownDate - now;
+
+              var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+              var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+              var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+              var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+              document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
+              + minutes + "m " + seconds + "s ";
+
+              if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("countdown").innerHTML = "EXPIRED";
+              }
+            }, 1000);
+        </script>
+    </div>
+
+    <div class="containercontent2">
+        <div class="column">
+            <h2>MEET THE PRESIDENTIAL CANDIDATES</h2>
+            <p>Click the button below to know more about the candidates leading in the 2022 presidential elections.</p>
+            <a href="webpage1.html" id="a1">PROCEED TO PAGE</a>
+        </div>
+        
+        <div class="column">
+            <h2>MEET THE VICE PRESIDENTIAL CANDIDATES</h2>
+            <p>Click the button below to know more about the candidates leading in the 2022 vice presidential elections.</p>
+            <a href="webpage2.html" id="a2">PROCEED TO PAGE</a>
+        </div>
+        
+        <div class="column">
+            <h2>MEET THE SENATORIAL CANDIDATES</h2>
+            <p>Click the button below to know more about the candidates leading in the 2022 senatorial elections.</p>
+            <a href="webpage3.html" id="a3">PROCEED TO PAGE</a>
+        </div>
+    </div>
+    
+ 
+    <div class="containercontent3">
+    </div>
+
+    <div class="containercontent4">
+        <h1>Find the final ballot face for the 2022 polls here: </h1>
+        <h6>Source: Rappler</h6>
+
+        <a href="https://www.scribd.com/document/554861282/Final-Ballot-Face-for-2022-Polls" target="_blank">PROCEED TO LINK</a>   
+    </div>
+    
+    <footer>
+        <h1>References</h1>
+        <ol>
+            <li>Photos by David Guyler, Andrew Alub, Mlenny Photography, Lisa Marie David, Philippine Coast Guard, Ka Leody Manggagawa, JL Javier, Albert Galvelo, Jacqueline Hernandez, Andrew D. Bernstein, Jire Carreon, Kiko Pangilinan, and KJ Rosales </li>
+            <li>ADB Approves $1.5 Billion Financing to Support the Philippines’ COVID-19 Response. (2020, April 23). Asian Development Bank. https://www.adb.org/news/adb-approves-1-5-billion-financing-support-philippines-covid-19-response</li>
+            <li>Gregorio, X. (2022, January 21). PDP-Laban faction backs Sara for VP, leaves out running mate Bongbong. Philstar.com; Philstar.com. https://www.philstar.com/headlines/2022/01/21/2155434/pdp-laban-faction-backs-sara-vp-leaves-out-running-mate-bongbong</li>
+            <li>Majority of Filipinos trust, approve of Senate President Tito Sotto. (2018, September 25). RAPPLER. https://www.rappler.com/nation/212772-tito-sotto-trust-approval-rating-pulse-asia-survey-september-2018/</li>
+            <li>Philippines Information - Travel and Local Information Guide - Go Guides. (2022). Hotels.com. https://au.hotels.com/go/philippines/philippines-information</li>
+            
+        </ol>
+    </footer>
+</body>
+</html>

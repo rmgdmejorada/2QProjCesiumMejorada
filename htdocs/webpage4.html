@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Boto Bente Dos</title>
+    
+    <meta charset="UTF-8">
+    <meta name="author" content="Rachel Mejorada">
+    <meta name="keywords" content="Philippines, Elections, President, Vice President, Senate">
+    <meta name="revised" content="31-01-2022">
+    
+    <link rel="stylesheet" href="../css/css.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@100;300;400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;400;500;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="icon" type="image/png" href="../images/logo1.png">
+</head>
+<body>
+    <header>
+        <div><img src="../images/logo.png" class="logo"></div>
+        <div><h1><span id="boto">BOTO  </span><span id="bente">BENTE  </span><span id="dos">DOS</span></h1></div>
+    </header>
+    
+    <nav class="topnav" id="myTopnav">
+        <a href="index.html">HOME</a>
+        <a href="webpage1.html">PRESIDENTIAL</a>
+        <a href="webpage2.html">VICE PRESIDENTIAL</a>
+        <a href="webpage3.html">SENATORIAL</a>
+        <a href="webpage4.html"  class="active">TIPS</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+    </nav>
+    
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            }
+            
+            else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+    
+    <div class="webpage4content1">
+        <div class="column1">
+            <div class="card">
+                <h1 style="color: #e5af38">1</h1>
+                <h3 style="color: #e5af38">GET TO KNOW THE CANDIDATES</h3>
+                <p>Research about the platforms, plans, and backgrounds of the candidates. Take advantage of news outlets, the internet, and other reliable sources of information available. Be mindful of fake information. Get to know the candidates responsibly.</p>
+            </div>
+        </div>
+
+        <div class="column1">
+            <div class="card">
+                <h1 style="color: #e05151">2</h1>
+                <h3 style="color: #e05151">EVALUATE THE CANDIDATES</h3>
+                <p>To evaluate the candidates, these steps may be followed:</p>
+                <ol>
+                        <li style="padding-top: 0;">Know the stands of the candidates on the issues that matter to you the most.</li>
+                        <li>With the data you have collected through researching about the candidates, examine how ready they are to take the position they are running for. Consider as well the campaign materials they utilized.</li>
+                        <li>Identify the opinions of other people on the candidates, as well as their reasons. Note, however, that this is only to help you in understanding your own opinions. Never allow anyone to dictate who you will vote as this takes away your right to choose.</li>
+                        <li>Listen to debates involving the candidates.</li>
+                </ol>
+            </div>
+        </div>
+        
+        <div class="column1">
+            <div class="card">
+                <h1 style="color: #6385e5">3</h1>
+                <h3 style="color: #6385e5">VOTE WHO THE COUNTRY NEEDS</h3>
+                <p>The well-being of the country counts on your vote. Make sure to vote the candidates that the country needs.</p>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <h1>References</h1>
+        <ol>
+            <li>How to Pick a Candidate. (2021, May 2). League of Women Voters Newton. https://lwvnewton.org/voters-service/how-to-pick-a-candidate/</li>
+            <li>Time to Vote Wisely: Electing the Right Political Candidate. (2018, September 26). Inside Manila. https://insidemanila.ph/article/551/time-to-vote-wisely-electing-the-right-political-candidate</li>
+        </ol>
+    </footer>
+</body>
+</html>

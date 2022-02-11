@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Boto Bente Dos</title>
+    
+    <meta charset="UTF-8">
+    <meta name="author" content="Rachel Mejorada">
+    <meta name="keywords" content="Philippines, Elections, President, Vice President, Senate">
+    <meta name="revised" content="31-01-2022">
+    
+    <link rel="stylesheet" href="../css/css.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@100;300;400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;400;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="icon" type="image/png" href="../images/logo1.png">
+</head>
+<body>
+    <header>
+        <div><img src="../images/logo.png" class="logo"></div>
+        <div><h1><span id="boto">BOTO  </span><span id="bente">BENTE  </span><span id="dos">DOS</span></h1></div>
+    </header>
+    
+    <nav class="topnav" id="myTopnav">
+        <a href="index.html">HOME</a>
+        <a href="webpage1.html">PRESIDENTIAL</a>
+        <a href="webpage2.html" class="active">VICE PRESIDENTIAL</a>
+        <a href="webpage3.html">SENATORIAL</a>
+        <a href="webpage4.html">TIPS</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+    </nav>
+    
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            }
+            
+            else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+    
+    <div class="webpage2content1">
+        <h1>The leading <span>vice presidential</span> candidates in the 2022 Philippine elections.</h1>
+    </div>
+    
+    <div class="webpage2content2">
+        <button class="collapsible">The Vice President</button>
+        <div class="presidentinfo">
+            <h1 style="font-family: Barlow; font-weight: 800; text-align: center; font-size: 50px; letter-spacing: 5px; margin-top: 30px;">The Vice President of the Philippines</h1>
+            <ul style="list-style-type: circle;">
+                <li style="margin-top: 30px">may serve for a term of six years</li>
+                <li>may run for reelection once</li>
+            </ul>
+
+            <h1>Qualifications</h1>
+            <a href="https://www.officialgazette.gov.ph/constitutions/the-1987-constitution-of-the-republic-of-the-philippines/the-1987-constitution-of-the-republic-of-the-philippines-article-vii/" target="_blank">Article VII, Section 3 of the 1987 Constitution</a>
+            <ol type="1">
+                <li>natural born Filipino</li>
+                <li>a registered voter</li>
+                <li>must be able to read and write</li>
+                <li>40 years of age at the day of the election</li>
+                <li>must have resided in the Philippines ten years before the election is held</li>
+            </ol>
+
+            <h1>Duties</h1>
+            <ol type="1">
+                <li>may concurrently assume a cabinet position should the President of the Philippines offer the former one</li>
+                <li>secretary concurrent to the position of vice president</li>
+                <li style="margin-bottom: 30px">assume the presidency in case of the death, disability, or resignation of the incumbent President</li>
+            </ol>
+        </div> 
+        
+    <div class="webpage2content3">
+        <div class="column1">
+            <div class="profile">
+                <img src="../images/vicepres1atienza.png" style="width: 100%">
+                <h1>Atienza,</h1>
+                <h2>Lito</h2>
+                <p class="profileparty">Probinsya Muna Development Initiative</p>
+                <div style="margin: 24px 0;">
+                    <a href="#"><i class="fa fa-twitter"></i></a>    
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                </div>
+                <button id="myBtn" href="#myModal">LEARN MORE</button>
+                <div id="myModal" class="modal">
+
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <button class="collapsible" style="margin-top: 20px">Personal Information</button>
+                        <div class="presidentinfo">
+
+                        </div>
+                        
+                        <button class="collapsible">Education</button>
+                        <div class="presidentinfo">
+  
+                        </div>
+                        
+                        <button class="collapsible">Experience & Occupation</button>
+                        <div class="presidentinfo">
+
+                        </div>
+                        
+                        <button class="collapsible">Platforms</button>
+                        <div class="presidentinfo">
+    
+                        </div>
+                        
+                        <button class="collapsible">Stand on National Issues</button>
+                        <div class="presidentinfo" id="stand">
+                           
+                        </div>
+                        
+                        <button class="collapsible">Media</button>
+                        <div class="presidentinfo">
+                         
+                        </div>
+                        
+                        <button class="collapsible">References</button>
+                        <div class="presidentinfo">
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+  
+        <div class="column1">
+            <div class="profile">
+                <img src="../images/vicepres2bello.png" style="width: 100%">
+                <h1>Bello,</h1>
+                <h2>Walden</h2>
+                <p class="profileparty">Partido Lakas ng Masa</p>
+                <div style="margin: 24px 0;">
+                    <a href="https://twitter.com/WaldenBello?s=20&t=uvo7jaqIPKE9O3B0gl5VHw" target="_blank"><i class="fa fa-twitter"></i></a>    
+                    <a href="https://www.facebook.com/WaldenBelloOfficial" target="_blank"><i class="fa fa-facebook"></i></a>
+                </div>
+                <button id="myBtn" href="#myModal1">LEARN MORE</button>
+                <div id="myModal1" class="modal">
+
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <button class="collapsible" style="margin-top: 20px">Personal Information</button>
+                        <div class="presidentinfo">
+
+                        </div>
+                        
+                        <button class="collapsible">Education</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">Experience</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">Platforms</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">Stand on National Issues</button>
+                        <div class="presidentinfo" id="stand">
+                           
+                        </div>
+                        
+                        <button class="collapsible">Media</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">References</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                    </div>
+
+                </div>    
+            </div>
+        </div>
+        
+        <div class="column1">
+            <div class="profile">
+                <img src="../images/vicepres3duterte.png" style="width: 100%">
+                <h1>Duterte,</h1>
+                <h2>Sara</h2>
+                <p class="profileparty">Lakas–CMD</p>
+                <div style="margin: 24px 0;">
+                    <a href="#"><i class="fa fa-twitter"></i></a>    
+                    <a href="https://www.facebook.com/MayorIndaySaraDuterteOfficial" target="_blank"><i class="fa fa-facebook"></i></a>
+                </div>
+                <button id="myBtn" href="#myModal2">LEARN MORE</button>
+                <div id="myModal2" class="modal">
+
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <button class="collapsible" style="margin-top: 20px">Personal Information</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">Education</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">Experience</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">Platforms</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">Stand on National Issues</button>
+                        <div class="presidentinfo" id="stand">
+                           
+                        </div>
+                        
+                        <button class="collapsible">Media</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">References</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                    </div>
+
+                </div>       
+            </div>
+        </div>
+    </div>
+    
+    <div class="webpage1content4">
+        <div class="column1">
+            <div class="profile">
+                <img src="../images/vicepres4ong.png" style="width: 100%">
+                <h1>Ong,</h1>
+                <h2>Doc Willie</h2>
+                <p class="profileparty">Aksyon Demokratiko</p>
+                <div style="margin: 24px 0;">
+                    <a href="#"><i class="fa fa-twitter"></i></a>    
+                    <a href="https://www.facebook.com/DocWillieOngOfficial" target="_blank"><i class="fa fa-facebook"></i></a>
+                </div>
+                <button id="myBtn" href="#myModal3">LEARN MORE</button>
+                <div id="myModal3" class="modal">
+
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <button class="collapsible" style="margin-top: 20px">Personal Information</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">Education</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">Experience</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">Platforms</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">Stand on National Issues</button>
+                        <div class="presidentinfo" id="stand">
+                           
+                        </div>
+                        
+                        <button class="collapsible">Media</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">References</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+  
+        <div class="column1">
+            <div class="profile">
+                <img src="../images/vicepres5pangilinan.png" style="width: 100%">
+                <h1>Pangilinan,</h1>
+                <h2>Kiko</h2>
+                <p class="profileparty">Liberal Party</p>
+                <div style="margin: 24px 0;">
+                    <a href="https://twitter.com/kikopangilinan?s=20&t=uvo7jaqIPKE9O3B0gl5VHw" target="_blank"><i class="fa fa-twitter"></i></a>    
+                    <a href="https://www.facebook.com/officialkikopangilinan" target="_blank"><i class="fa fa-facebook"></i></a>
+                </div>
+                <button id="myBtn" href="#myModal4">LEARN MORE</button>
+                <div id="myModal4" class="modal">
+
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <button class="collapsible" style="margin-top: 20px">Personal Information</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">Education</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">Experience</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">Platforms</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">Stand on National Issues</button>
+                        <div class="presidentinfo" id="stand">
+                           
+                        </div>
+                        
+                        <button class="collapsible">Media</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">References</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                    </div>
+
+                </div>    
+            </div>
+        </div>
+        
+        <div class="column1">
+            <div class="profile">
+                <img src="../images/vicepres6sotto.png" style="width: 100%">
+                <h1>Sotto,</h1>
+                <h2>Vicente Tito</h2>
+                <p class="profileparty">Nationalist People's Coalition</p>
+                <div style="margin: 24px 0;">
+                    <a href="#"><i class="fa fa-twitter"></i></a>    
+                    <a href="https://www.facebook.com/TeamTitoSotto" target="_blank"><i class="fa fa-facebook"></i></a>
+                </div>
+                <button id="myBtn" href="#myModal5">LEARN MORE</button>
+                <div id="myModal5" class="modal">
+
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <button class="collapsible" style="margin-top: 20px">Personal Information</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">Education</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">Experience</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">Platforms</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">Stand on National Issues</button>
+                        <div class="presidentinfo" id="stand">
+                           
+                        </div>
+                        
+                        <button class="collapsible">Media</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">References</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                    </div>
+
+                </div>       
+            </div>
+        </div>
+    </div>
+        
+    <footer>
+        <h1>References</h1>
+        <ol>
+            <li>Photos by ABS-CBN News, Cesar Tomambo, Leanne Jazul, Lean Daval Jr., Rappler, Sara Duterte Official Facebook Page, Senate of the Philippines Official Facebook Page, Walden Bello Official Facebook Page, and Wilson Ong Jr.</li>
+            <li>CNN Philippines. (2019). The Source: Lito Atienza [YouTube Video]. In YouTube. https://www.youtube.com/watch?v=-kzJW9v28ko</li>
+            <li>Mauricio-Arriola, T. (2021, November 6). Fighting for — and with — the good. The Manila Times; The Manila Times. https://www.manilatimes.net/2021/11/07/the-sunday-times/cover-story/fighting-for-and-with-the-good/1821270</li>
+            <li>The Executive Branch | GOVPH. (2022). Official Gazette of the Republic of the Philippines. https://www.officialgazette.gov.ph/about/gov/exec/</li>
+        </ol>
+    </footer>
+    
+    <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+
+            for (i = 0; i < coll.length; i++) {
+              coll[i].addEventListener("click", function() {
+                this.classList.toggle("webpage1content2active");
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight){
+                  content.style.maxHeight = null;
+                } else {
+                  content.style.maxHeight = content.scrollHeight + "px";
+                } 
+              });
+            }
+    </script>
+    
+    <script>
+        var btn = document.querySelectorAll("#myBtn");
+
+        var modals = document.querySelectorAll('.modal');
+
+        var spans = document.getElementsByClassName("close");
+
+        for (var i = 0; i < btn.length; i++) {
+         btn[i].onclick = function(e) {
+            e.preventDefault();
+            modal = document.querySelector(e.target.getAttribute("href"));
+            modal.style.display = "block";
+         }
+        }
+
+        for (var i = 0; i < spans.length; i++) {
+         spans[i].onclick = function() {
+            for (var index in modals) {
+              if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";    
+            }
+         }
+        }
+
+        window.onclick = function(event) {
+            if (event.target.classList.contains('modal')) {
+             for (var index in modals) {
+              if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";    
+             }
+            }
+        }
+    </script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Boto Bente Dos</title>
+    
+    <meta charset="UTF-8">
+    <meta name="author" content="Rachel Mejorada">
+    <meta name="keywords" content="Philippines, Elections, President, Vice President, Senate">
+    <meta name="revised" content="31-01-2022">
+    
+    <link rel="stylesheet" href="../css/css.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@100;300;400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;400;500;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="icon" type="image/png" href="../images/logo1.png">
+</head>
+<body>
+    <header>
+        <div><img src="../images/logo.png" class="logo"></div>
+        <div><h1><span id="boto">BOTO  </span><span id="bente">BENTE  </span><span id="dos">DOS</span></h1></div>
+    </header>
+    
+    <nav class="topnav" id="myTopnav">
+        <a href="index.html">HOME</a>
+        <a href="webpage1.html"  class="active">PRESIDENTIAL</a>
+        <a href="webpage2.html">VICE PRESIDENTIAL</a>
+        <a href="webpage3.html">SENATORIAL</a>
+        <a href="webpage4.html">TIPS</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+    </nav>
+    
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            }
+            
+            else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+    
+    <div class="webpage1content1">
+        <h1>The leading <span>presidential</span> candidates in the 2022 Philippine elections.</h1>
+    </div>
+    
+    <div class="webpage1content2">
+        <button class="collapsible">The President</button>
+        <div class="presidentinfo">
+            <h1 style="font-family: Barlow; font-weight: 800; text-align: center; font-size: 50px; letter-spacing: 5px; margin-top: 30px;">The President of the Philippines</h1>
+            <ul style="list-style-type: circle;">
+                <li style="margin-top: 30px">may serve for only one term of six years</li>
+                <li>ineligible for reelection</li>
+            </ul>
+
+            <h1>Qualifications</h1>
+            <a href="https://www.officialgazette.gov.ph/constitutions/the-1987-constitution-of-the-republic-of-the-philippines/the-1987-constitution-of-the-republic-of-the-philippines-article-vii/" target="_blank">Article VII, Section 2 of the 1987 Constitution</a>
+            <ol type="1">
+                <li>natural born Filipino</li>
+                <li>a registered voter</li>
+                <li>must be able to read and write</li>
+                <li>40 years of age at the day of the election</li>
+                <li>must have resided in the Philippines ten years before the election is held</li>
+            </ol>
+
+            <h1>Powers</h1>
+            <a href="https://www.officialgazette.gov.ph/1987/07/25/executive-order-no-292-s-1987/" target="_blank">Administrative Code of 1987</a>
+            <ol type="1">
+                <li>power of control over the executive branch</li>
+                <li>power ordinance power</li>
+                <li>power over aliens (non-Filipinos in the Philippines)</li>
+                <li>powers of eminent domain, escheat, land reservation and recovery of ill-gotten wealth</li>
+                <li>power of appointment</li>
+                <li style="margin-bottom: 30px">power of general supervision over local governments</li>
+            </ol>
+        </div> 
+    </div>
+    
+    <div class="webpage1content3">
+        <div class="column1">
+            <div class="profile">
+                <img src="../images/pres1deguzman.png" style="width: 100%">
+                <h1>De Guzman,</h1>
+                <h2>Leody</h2>
+                <p class="profileparty">Partido Lakas ng Masa</p>
+                <div style="margin: 24px 0;">
+                    <a href="https://twitter.com/LeodyManggagawa?s=20&t=VXMfnSx9Yis-yNva6GafHA" target="_blank"><i class="fa fa-twitter"></i></a>    
+                    <a href="https://www.facebook.com/KaLeodyDeGuzman" target="_blank"><i class="fa fa-facebook"></i></a>
+                </div>
+                <button id="myBtn" href="#myModal">LEARN MORE</button>
+                <div id="myModal" class="modal">
+
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <button class="collapsible" style="margin-top: 20px">Personal Information</button>
+                        <div class="presidentinfo">
+                            <h4>Full name</h4>
+                            <p>De Guzman, Leodegario Quitain</p>
+                            <h4>Birthdate</h4>
+                            <p>July 25, 1959</p>
+                            <h4>Birthplace</h4>
+                            <p style="margin-bottom: 20px">Naujan, Oriental Mindoro</p>
+                        </div>
+                        
+                        <button class="collapsible">Education</button>
+                        <div class="presidentinfo">
+                            <h4>Secondary</h4>
+                            <p>Naujan Academy, Occidental Mindoro</p>
+                            <h4>Tertiary</h4>
+                            <p style="margin-bottom: 20px">Bachelor of Science in Customs Administration, Philippine Maritime Institute</p>
+                        </div>
+                        
+                        <button class="collapsible">Experience & Occupation</button>
+                        <div class="presidentinfo">
+                            <ul>
+                                <li>Labor Leader</li>
+                                <li>Chairperson, Bukluran ng Manggagawang Pilipino</li>
+                                <li>Founding member, Partido Lakas ng Masa</li>
+                                <li>Founding member, Nagkaisa Labor Coalition</li>
+                                <li>Councilor, International Council of the International Center for Labor Solidarity</li>
+                                <li>Garments worker, Aris Philippines</li>
+                                <li style="margin-bottom: 20px">Ranked 38th overall in the 2019 Philippine senatorial elections with 888,458 votes</li>
+                            </ul>
+                        </div>
+                        
+                        <button class="collapsible">Platforms</button>
+                        <div class="presidentinfo">
+                            <h4>Bagong Politika, Bagong Ekonomiya</h4>
+                            <ul>
+                                <li style="margin-top:0">New Politics, New Economy</li>
+                                <li style="margin-bottom:50px">Ka Leody: <span style="font-family: Barlow; font-weight: 300; font-style: italic">“Ang platapormang bitbit namin ni Walden ay ang tanging plataporma ngayong eleksyon na handang komprontahin ang yaman, interes, at kapangyarihan ng mga bilyonaryo, na nagawa pang lumago sa panahon ng pandemya’t resesyon habang milyun-milyong Pilipino ay lugmok sa kahirapan.”</span></li>
+                            </ul>
+                            
+                            <h4>Economic</h4>
+                            <ul>
+                                <li style="margin-top:0">Re-orient the economy towards domestic needs</li>
+                                <li>Uphold the principle of worker's control</li>
+                                <li>Raise national minimum wage</li>
+                                <li>End job contractualization</li>
+                                <li>Impose price controls on basic commodities</li>
+                                <li>Repeal 2019 Rice Tariffication Law</li>
+                                <li>Impose a "Wealth Tax" on the country's richest 250-300 families</li>
+                                <li>Cancel debt repayments for five years</li>
+                                <li>Recover remaining ill-gotten wealth from the Marcoses</li>
+                            </ul>
+                            
+                            <h4>Political</h4>
+                            <ul>
+                                <li style="margin-top:0">Institute direct democracy</li>
+                                <li>Demilitarize society, uphold human rights, punish mass-murderers and plunderers</li>
+                                <li>Uphold non-majoritarian ethnic communities</li>
+                                <li>Formulate an independent foreign policy</li>
+                            </ul>
+                            
+                            <h4>Social Development</h4>
+                            <ul>
+                                <li style="margin-top:0">Promote universal transformative social protection</li>
+                                <li>Uphold climate justice</li>
+                                <li style="margin-bottom: 20px">Achieve gender equality and strengthen gender rights</li>
+                            </ul>
+                        </div>
+                        
+                        <button class="collapsible">Stand on National Isusues</button>
+                        <div class="presidentinfo" id="stand">
+                            <h4>From the Jessica Soho Presidential Interviews</h4>
+                            <ul class="fa-ul">
+                                <li style="margin-top:0"><i class="fa-li fa fa-times-circle"></i>ABOLISH PCGG</li>
+                                <li><i class="fa-li fa fa-times-circle"></i>POGO OPERATIONS</li>
+                                <li><i class="fa-li fa fa-check-circle"></i>PEACE TALKS WITH CPP-NPA-NDF</li>
+                                <li><i class="fa-li fa fa-check-circle"></i>MAKE POLITICAL DYNASTY ILLEGAL</li>
+                                <li><i class="fa-li fa fa-check-circle"></i>PUBLICIZE SALNS</li>
+                                <li><i class="fa-li fa fa-check-circle"></i>WERE THERE EXTRAJUDICIAL KILLINGS IN WAR ON DRUGS?</li>
+                                <li><i class="fa-li fa fa-check-circle"></i>LEGALIZE MEDICAL MARIJUANA</li>
+                                <li><i class="fa-li fa fa-times-circle"></i>LEGALIZE JUETENG</li>
+                                <li><i class="fa-li fa fa-check-circle"></i>RETURN TO THE ICC</li>
+                                <li><i class="fa-li fa fa-check-circle"></i>BAN CANDIDATES FACING CHARGES FROM RUNNING IN ELECTION</li>
+                                <li><i class="fa-li fa fa-times-circle"></i>JOINT PH-CHINA EXPLORATION IN WEST PH SEA</li>
+                                <li><i class="fa-li fa fa-check-circle"></i>SHOULD ICC PROSECUTE DUTERTE?</li>
+                                <li><i class="fa-li fa fa-check-circle"></i>SHOULD PRESIDENTS PUBLICIZE THEIR MEDICAL RECORDS?</li>
+                                <li><i class="fa-li fa fa-check-circle"></i>MANDATORY DRUG TESTING FOR CANDIDATES</li>
+                                <li><i class="fa-li fa fa-check-circle"></i>DIVORCE</li>
+                                <li><i class="fa-li fa fa-times-circle"></i>CONTINUE VISITING FORCES AGREEMENT</li>
+                                <li><i class="fa-li fa fa-check-circle"></i>BAN SUBSTITUTION BY WITHDRAWAL</li>
+                                <li><i class="fa-li fa fa-times-circle"></i>DEATH PENALTY</li>
+                                <li><i class="fa-li fa fa-times-circle"></i>LOWER AGE OF CRIMINAL LIABILITY</li>
+                                <li><i class="fa-li fa fa-check-circle"></i>SAME-SEX MARRIAGE</li>
+                                <li style="margin-bottom: 20px"><i class="fa-li fa fa-times-circle"></i>ALLOW 100% OWNERSHIP OF FOREIGNERS</li>
+                            </ul>
+                        </div>
+                        
+                        <button class="collapsible">Media</button>
+                        <div class="presidentinfo">
+                            <h4>Bakit Ikaw? the DZRH Presidential Job Interview - Leody de Guzman</h4>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/WgRALxugA44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            
+                            <h4>KBP Forum: Panelists grill PH presidential candidates 4-on-1 | ANC</h4>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/HXMUudNZCNM?start=1057" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            
+                            <h4>KBP Forum: PH Presidential candidates answer panelists' one-on-one questions on nat'l issues | ANC</h4>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/EUM0tWikYkQ?start=321" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            
+                            <h4>Leody de Guzman: Platforms and advocacies</h4>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/vPhl4PLoWzg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            
+                            <h4>Proclamation Rally</h4>
+                            <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FKaLeodyDeGuzman%2Fvideos%2F300555245285567%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+                        </div>
+                        
+                        <button class="collapsible">References</button>
+                        <div class="presidentinfo">
+                            <ol>
+                                <li>Presidential aspirant Leody de Guzman (Facebook photo)</li>
+                                <li>Antonio, J. (2021, October 6). Labor advocate Leody de Guzman files COC for president. ABS-CBN News; ABS-CBN News. https://news.abs-cbn.com/news/10/06/21/labor-advocate-leody-de-guzman-files-coc-for-president</li>
+                                <li>APPLICANT FOR PRESIDENT: Leodigario “Leody” De Guzman | OneNews.PH. (2021). APPLICANT for PRESIDENT: Leodigario “Leody” de Guzman | OneNews.PH. https://www.onenews.ph/articles/applicant-for-president-leodigario-leody-de-guzman</li>
+                                <li>DE GUZMAN, Ka Leody | Eleksyon 2019 | GMA News Online. (2019). GMA News Online. https://www.gmanetwork.com/news/eleksyon2019/candidate/22/leodigariodeguzman/</li>
+                                <li>https://www.facebook.com/100063714849748/posts/330107495789743/</li>
+                                <li>In first face-off vs other bets, Leody de Guzman brings “alternative” plans. (2022, February 4). RAPPLER. https://www.rappler.com/nation/elections/leody-de-guzman-brings-alternative-plans-kbp-presidential-forum-2022/</li>
+                                <li>Ka Leody-Bello platform: Higher wages, billionaire’s tax, mass murderers behind bars. (2021, October 23). RAPPLER. https://www.rappler.com/nation/elections/ka-leody-de-guzman-walden-bello-tandem-plans-economy-politics-social-development-elections-2022/</li>
+                                <li>Labor leader Leody de Guzman files COC for president. (2021). Cnn. https://cnnphilippines.com/news/2021/10/6/Leody-de-Guzman-COC-president-2022-elections.html?fbclid=IwAR1KClGcpBhpj-zOaGR-AUQDvhwHDBf6mF_57LYAiXB6vEZiaRBRCXtZLyc</li>
+                                <li>Our Platform. (2022). Www.lnm.ph. https://www.lnm.ph/platform</li>
+                                <li style="margin-bottom: 20px">upsahalalan. (2019, February 21). De Guzman, Leodigario “Ka Leody” (PARTIDO LAKAS NG MASA). UP Sa Halalan 2022. https://halalan.up.edu.ph/de-guzman-leodigario-ka-leody-partido-lakas-ng-masa/</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+  
+        <div class="column1">
+            <div class="profile">
+                <img src="../images/pres2domagoso.png" style="width: 100%">
+                <h1>Domagoso,</h1>
+                <h2>Isko Moreno</h2>
+                <p class="profileparty">Aksyon Demokratiko</p>
+                <div style="margin: 24px 0;">
+                    <a href="https://twitter.com/IskoMoreno?s=20&t=PrzwkmUI8ARqGS5ARtVQLg" target="_blank"><i class="fa fa-twitter"></i></a>    
+                    <a href="https://www.facebook.com/iskomorenodomagoso" target="_blank"><i class="fa fa-facebook"></i></a>
+                </div>
+                <button id="myBtn" href="#myModal1">LEARN MORE</button>
+                <div id="myModal1" class="modal">
+
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <button class="collapsible" style="margin-top: 20px">Personal Information</button>
+                        <div class="presidentinfo">
+
+                        </div>
+                        
+                        <button class="collapsible">Education</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">Experience</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">Platforms</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">Stand on National Issues</button>
+                        <div class="presidentinfo" id="stand">
+                           
+                        </div>
+                        
+                        <button class="collapsible">Media</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">References</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                    </div>
+
+                </div>    
+            </div>
+        </div>
+        
+        <div class="column1">
+            <div class="profile">
+                <img src="../images/pres3lacson.png" style="width: 100%">
+                <h1>Lacson,</h1>
+                <h2>Ping</h2>
+                <p class="profileparty">Partido para sa Demokratikong Reporma</p>
+                <div style="margin: 24px 0;">
+                    <a href="https://twitter.com/iampinglacson?s=20&t=MPs9vM5GZIxMURmtyB7xSg" target="_blank"><i class="fa fa-twitter"></i></a>    
+                    <a href="https://www.facebook.com/PingLacsonOfficial" target="_blank"><i class="fa fa-facebook"></i></a>
+                </div>
+                <button id="myBtn" href="#myModal2">LEARN MORE</button>
+                <div id="myModal2" class="modal">
+
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <button class="collapsible" style="margin-top: 20px">Personal Information</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">Education</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">Experience</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">Platforms</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">Stand on National Issues</button>
+                        <div class="presidentinfo" id="stand">
+                           
+                        </div>
+                        
+                        <button class="collapsible">Media</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">References</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                    </div>
+
+                </div>       
+            </div>
+        </div>
+    </div>
+    
+    <div class="webpage1content4">
+        <div class="column1">
+            <div class="profile">
+                <img src="../images/pres4marcos.png" style="width: 100%">
+                <h1>Marcos,</h1>
+                <h2>Bongbong</h2>
+                <p class="profileparty">Partido Federal ng Pilipinas</p>
+                <div style="margin: 24px 0;">
+                    <a href="https://twitter.com/bongbongmarcos?s=20&t=0NRK0jgmaz1mkdBqR_3Spg" target="_blank"><i class="fa fa-twitter"></i></a>    
+                    <a href="https://www.facebook.com/BongbongMarcos" target="_blank"><i class="fa fa-facebook"></i></a>
+                </div>
+                <button id="myBtn" href="#myModal3">LEARN MORE</button>
+                <div id="myModal3" class="modal">
+
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <button class="collapsible" style="margin-top: 20px">Personal Information</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">Education</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">Experience</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">Platforms</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">Stand on National Issues</button>
+                        <div class="presidentinfo" id="stand">
+                           
+                        </div>
+                        
+                        <button class="collapsible">Media</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">References</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+  
+        <div class="column1">
+            <div class="profile">
+                <img src="../images/pres5pacquiao.png" style="width: 100%">
+                <h1>Pacquiao,</h1>
+                <h2>Manny Pacman</h2>
+                <p class="profileparty">Probinsya Muna Development Initiative</p>
+                <div style="margin: 24px 0;">
+                    <a href="https://twitter.com/MannyPacquiao?s=20&t=0NRK0jgmaz1mkdBqR_3Spg" target="_blank"><i class="fa fa-twitter"></i></a>    
+                    <a href="https://www.facebook.com/MannyPacquiao" target="_blank"><i class="fa fa-facebook"></i></a>
+                </div>
+                <button id="myBtn" href="#myModal4">LEARN MORE</button>
+                <div id="myModal4" class="modal">
+
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <button class="collapsible" style="margin-top: 20px">Personal Information</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">Education</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">Experience</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">Platforms</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">Stand on National Issues</button>
+                        <div class="presidentinfo" id="stand">
+                           
+                        </div>
+                        
+                        <button class="collapsible">Media</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">References</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                    </div>
+
+                </div>    
+            </div>
+        </div>
+        
+        <div class="column1">
+            <div class="profile">
+                <img src="../images/pres6robredo.png" style="width: 100%">
+                <h1>Robredo,</h1>
+                <h2>Leni</h2>
+                <p class="profileparty">Independent</p>
+                <div style="margin: 24px 0;">
+                    <a href="https://twitter.com/lenirobredo?s=20&t=0NRK0jgmaz1mkdBqR_3Spg" target="_blank"><i class="fa fa-twitter"></i></a>    
+                    <a href="https://www.facebook.com/VPLeniRobredoPH" target="_blank"><i class="fa fa-facebook"></i></a>
+                </div>
+                <button id="myBtn" href="#myModal5">LEARN MORE</button>
+                <div id="myModal5" class="modal">
+
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <button class="collapsible" style="margin-top: 20px">Personal Information</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">Education</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">Experience</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">Platforms</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">Stand on National Issues</button>
+                        <div class="presidentinfo" id="stand">
+                           
+                        </div>
+                        
+                        <button class="collapsible">Media</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                        
+                        <button class="collapsible">References</button>
+                        <div class="presidentinfo">
+                            
+                        </div>
+                    </div>
+
+                </div>       
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <h1>References</h1>
+        <ol>
+            <li>Photos by Isko Moreno Domagoso Official Facebook Page, Bongbong Marcos Official Facebook Page, Ping Lacson Official Facebook Page, Manny Pacquiao Official Facebook Page, VP Leni Robredo Official Facebook Page, and Basilio Sepe</li>
+            <li>#HalalanResults: Labor advocate De Guzman concedes defeat in Senate run. (2019, May 14). ABS-CBN News; ABS-CBN News. https://news.abs-cbn.com/news/05/14/19/halalanresults-labor-advocate-de-guzman-concedes-defeat-in-senate-run</li>
+            <li>Go, B. Pacquiao residence on lockdown after viral video with Pimentel. (2020, March 27). RAPPLER. https://www.rappler.com/sports/256125-residence-makati-lockdown-after-viral-video-koko-pimentel/</li>
+            <li>Ismael, J. (2021, October 20). Transport groups rally behind BBM. The Manila Times; The Manila Times. https://www.manilatimes.net/2021/10/21/news/national/transport-groups-rally-behind-bbm/1819190</li>
+            <li>Talabong, R. (2022, January 22). Lawmaker and lawbreaker? Past haunts Lacson in GMA interview. RAPPLER. https://www.rappler.com/nation/elections/past-haunts-lacson-gma-interview-january-22-2022/</li>
+        </ol>
+    </footer>
+    
+    <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+
+            for (i = 0; i < coll.length; i++) {
+              coll[i].addEventListener("click", function() {
+                this.classList.toggle("webpage1content2active");
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight){
+                  content.style.maxHeight = null;
+                } else {
+                  content.style.maxHeight = content.scrollHeight + "px";
+                } 
+              });
+            }
+    </script>
+    
+    <script>
+        var btn = document.querySelectorAll("#myBtn");
+
+        var modals = document.querySelectorAll('.modal');
+
+        var spans = document.getElementsByClassName("close");
+
+        for (var i = 0; i < btn.length; i++) {
+         btn[i].onclick = function(e) {
+            e.preventDefault();
+            modal = document.querySelector(e.target.getAttribute("href"));
+            modal.style.display = "block";
+         }
+        }
+
+        for (var i = 0; i < spans.length; i++) {
+         spans[i].onclick = function() {
+            for (var index in modals) {
+              if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";    
+            }
+         }
+        }
+
+        window.onclick = function(event) {
+            if (event.target.classList.contains('modal')) {
+             for (var index in modals) {
+              if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";    
+             }
+            }
+        }
+    </script>
+</body>
+</html>
